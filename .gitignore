@@ -1,0 +1,5 @@
+.vs/
+packages/
+VoteMAGA/bin/
+VoteMAGA/obj/
+VoteMAGA/VoteMAGA.csproj.user
