@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoteMAGA", "VoteMAGA\VoteMAGA.csproj", "{67CBF938-575D-4F31-9910-AD443616CC31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoteMAGA.Tests", "VoteMAGA.Tests\VoteMAGA.Tests.csproj", "{861AC513-E186-4740-B540-70B6BED496B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{67CBF938-575D-4F31-9910-AD443616CC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67CBF938-575D-4F31-9910-AD443616CC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67CBF938-575D-4F31-9910-AD443616CC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861AC513-E186-4740-B540-70B6BED496B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861AC513-E186-4740-B540-70B6BED496B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861AC513-E186-4740-B540-70B6BED496B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861AC513-E186-4740-B540-70B6BED496B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
