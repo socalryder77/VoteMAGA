@@ -10,7 +10,7 @@ namespace VoteMAGA.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "VoteMAGA - Coming Soon";
 
             return View();
         }
