@@ -21,5 +21,13 @@ namespace VoteMAGA.Controllers
 
             return View();
         }
+
+
+        public ActionResult ViewPage1()
+        {
+            ViewBag.Title = "ViewPageTest";
+
+            return View();
+        }
     }
 }
