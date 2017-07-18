@@ -201,24 +201,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\User.cs">
-      <DependentUpon>VoteMAGA.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\VoteMAGA.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VoteMAGA.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\VoteMAGA.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VoteMAGA.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\VoteMAGA.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>VoteMAGA.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -230,16 +212,6 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Models\VoteMAGA.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>VoteMAGA.edmx</DependentUpon>
-      <LastGenOutput>VoteMAGA.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\VoteMAGA.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>VoteMAGA.edmx</DependentUpon>
-      <LastGenOutput>VoteMAGA.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -263,13 +235,6 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <EntityDeploy Include="Models\VoteMAGA.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>VoteMAGA.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\VoteMAGA.edmx.diagram">
-      <DependentUpon>VoteMAGA.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -296,6 +261,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
