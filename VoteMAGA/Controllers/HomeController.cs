@@ -15,7 +15,7 @@ namespace VoteMAGA.Controllers
             return View();
         }
 
-        public ActionResult Candidate()
+        public ActionResult PleaseClap()
         {
             ViewBag.Title = "Candidate";
 
