@@ -200,8 +200,11 @@
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\bg_blue.jpg" />
+    <Content Include="Content\images\bg_us_flag_1.jpg" />
     <Content Include="Content\images\landing\lion-party.png" />
     <Content Include="Content\images\landing\trump-flag.jpg" />
+    <Content Include="Content\images\us_flag1.ico" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -229,12 +232,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\images\Trump Logo" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <None Include="Views\Home\Candidate.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

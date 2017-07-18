@@ -14,5 +14,12 @@ namespace VoteMAGA.Controllers
 
             return View();
         }
+
+        public ActionResult Candidate()
+        {
+            ViewBag.Title = "Candidate";
+
+            return View();
+        }
     }
 }
